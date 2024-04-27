@@ -1,5 +1,5 @@
 # CottonDetection
-- Base Version of the Detection Model
+- Enchanced Version of the Detection Model
 
 **Project Structure**
 

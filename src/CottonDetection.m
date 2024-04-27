@@ -105,7 +105,7 @@ for i = 1:length(diseaseCategories)
     testLabels = [testLabels; labels(testCatIndices)];
 end
 
-% Create and train the KNN model using cross-validation to find the best number of neighbors
+% KNN model using cross-validation to find the best number of neighbors
 bestK = 1;
 bestAccuracy = 0;
 
@@ -127,7 +127,7 @@ predictedLabels = predict(knnModel, testFeatures);
 % Calculate accuracy
 accuracy = sum(predictedLabels == testLabels) / length(testLabels);
 
-% Create a confusion matrix
+%confusion matrix for results
 confMat = confusionmat(testLabels, predictedLabels);
 
 % Safe calculation of precision, recall, and F1 score

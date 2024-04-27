@@ -3,17 +3,8 @@
 
 **Project Structure**
 
-CottonDiseaseDetection/
-├── src/
-│   └── CottonDetection.m
-├── data/
-│   └── Dataset/
-│       ├── curl_stage1/
-│       ├── curl_stage1+curl_stage2+sooty/
-│       ├── curl_stage1+sooty/
-│       ├── curl_stage2/
-│       ├── curl_stage2+sooty/
-│       └── healthy/
+![image](https://github.com/kkwillijr/CottonDetection/assets/96938630/4cc0b4e8-528d-47f0-9bbb-bc8da313c708)
+
 
 Setup
 git clone https://github.com/yourusername/CottonDiseaseDetection.git

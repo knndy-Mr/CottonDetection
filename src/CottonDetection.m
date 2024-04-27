@@ -1,5 +1,8 @@
-  % Define dataset base path
-  datasetBasePath = '/Users/kkwillijr/Documents/Image-Processing/Dataset';
+  % current file's directory
+  currentDir = fileparts(mfilename('fullpath'));
+  
+  % relative path to the dataset
+  datasetBasePath = fullfile(currentDir, '..', 'data', 'Dataset');
   
   % Define disease categories based on folder names
   diseaseCategories = {'curl_stage1', 'curl_stage1+curl_stage2+sooty', 'curl_stage1+sooty', ...

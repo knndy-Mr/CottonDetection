@@ -15,7 +15,9 @@ git clone [https://github.com/kkwillijr/CottonDetection.git]
 
 **Preprocessing**
 -convertes the images to grayscale
+
 -applies a Gaussian filter to smooth the images out
+
 -resize images to a standard dimension (256x256 pixels)
 
 **Feature Extraction**

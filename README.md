@@ -7,6 +7,7 @@
 
 **Project Setup**
 
+git clone https://github.com/kkwillijr/CottonDetection.git
 
 
 (or I recommend installing Github Desktop, its alot easier)

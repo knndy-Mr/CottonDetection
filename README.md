@@ -6,6 +6,7 @@
 ![image](https://github.com/kkwillijr/CottonDetection/assets/96938630/4cc0b4e8-528d-47f0-9bbb-bc8da313c708)
 
 **Project Setup**
+
 git clone https://github.com/yourusername/CottonDiseaseDetection.git
 
 (or I recommend installing Github Desktop, its alot easier)

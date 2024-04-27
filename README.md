@@ -14,6 +14,7 @@ git clone [https://github.com/kkwillijr/CottonDetection.git]
 **Model Layout**
 
 **Preprocessing**
+
 -convertes the images to grayscale
 
 -applies a Gaussian filter to smooth the images out

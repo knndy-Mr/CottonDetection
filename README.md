@@ -19,8 +19,11 @@ git clone https://github.com/yourusername/CottonDiseaseDetection.git
 -resize images to a standard dimension (256x256 pixels)
 
 **Feature Extraction**
+
 **Edge Detection:** : Use the Canny method to detect edges
+
 **Color Histograms** :Compute histograms for the grayscale values
+
 **Image Segmentation** : Apply Otsu's thresholding method to segment the images
 
 **Classification**

@@ -7,21 +7,16 @@
 
 **Project Setup**
 
-git clone https://github.com/yourusername/CottonDiseaseDetection.git
+
 
 (or I recommend installing Github Desktop, its alot easier)
 
 **Model Layout**
 
 **Preprocessing**
--convertes the images to grayscale
--applies a Gaussian filter to smooth the images out
--resize images to a standard dimension (256x256 pixels)
+
 
 **Feature Extraction**
-**Edge Detection:** : Use the Canny method to detect edges
-**Color Histograms** :Compute histograms for the grayscale values
-**Image Segmentation** : Apply Otsu's thresholding method to segment the images
 
 **Classification**
 Uses the K-Nearest Neighbors (KNN) algorithm to classify the images based on the extracted features above.

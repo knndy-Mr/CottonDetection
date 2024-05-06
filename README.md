@@ -41,3 +41,5 @@ Confusion Matric
 
 A confusion matrix is also generated. We use this to evaulate the prediction with the actual results from the dataset.
  
+**Evaluation of Performance**
+ While the developed system is faster and boasts a passable and high accuracy rate of 78%, manual diagnosis is still  more accurate. This is because the developed system relies on preset teachings, whereas manual diagnosis, while considerably  slower, tends to have a higher accuracy through human judgment.
